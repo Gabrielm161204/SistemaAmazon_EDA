@@ -1,0 +1,18 @@
+# Carpeta de configuración local de Visual Studio
+.vs/
+
+# Binarios compilados
+x64/
+Debug/
+Release/
+
+# Archivos de usuario (preferencias personales de VS)
+*.user
+*.suo
+
+# Archivos de objeto y enlazado
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib

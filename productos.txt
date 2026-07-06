@@ -1,0 +1,8 @@
+Camisa Formal|35|Ropa|45|1
+Auriculares|18|Electronica|120|1
+Mochila|20|Accesorios|75|1
+Zapatillas|25|Ropa|180|1
+Polo Casual|50|Ropa|35|1
+Teclado USB|30|Electronica|60|1
+Mouse Gamer|40|Electronica|85|1
+Laptop HP|15|Electronica|2500|1
