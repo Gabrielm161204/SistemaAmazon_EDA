@@ -83,3 +83,11 @@ Admin: Codigo incorrecto en cambio de clave - 2026-07-05
 ALERTA: Intento fallido acceso admin - 2026-07-05
 Admin: Acceso concedido - 2026-07-05
 Cliente registrado: Gabriel - DNI: 121113
+Sistema iniciado - 2026-07-05
+Sistema iniciado - 2026-07-05
+Admin: Acceso concedido - 2026-07-05
+Admin: Generar 50 productos
+Sistema iniciado - 2026-07-05
+Admin: Acceso concedido - 2026-07-05
+Sistema iniciado - 2026-07-05
+Admin: Acceso concedido - 2026-07-05

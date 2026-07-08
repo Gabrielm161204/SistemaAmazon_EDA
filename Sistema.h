@@ -12,24 +12,14 @@
 
 using namespace std;
 
-#include "Categoria.h"
-#include "GestorInventario.h"
-#include "NodoProducto.h"
-#include "Ordenamiento.h"
-#include "Producto.h"
 
-#include "Carrito.h"
+#include "GestorInventario.h"
 #include "Cliente.h"
-#include "Cola.h"
 #include "GeneradorData.h"
-#include "Historial.h"
 #include "Marketplace.h"
 #include "MetodoPago.h"
 #include "Pedido.h"
-#include "Perfil.h"
-#include "Pila.h"
 
-// Nuevas clases del Hito 2
 #include "BST.h"
 #include "Grafo.h"
 #include "ManejadorArchivos.h"

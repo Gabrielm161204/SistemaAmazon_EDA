@@ -189,7 +189,9 @@ public:
     /*
      Busca un producto por nombre usando la tabla hash.
     */
-    Producto* buscarPorNombre(string& nombre) {
+    Producto* buscarPorNombre() {
+        string nombre;
+        cout << "\n Nombre a buscar (Recursivo): "; cin.ignore(); getline(cin, nombre);
         Producto* ptr = nullptr;
         if (indicePorNombre.encontrado(nombre, ptr)) {
             return ptr;
@@ -277,7 +279,10 @@ public:
         if (cabeza == nullptr) return;
         vector<double> precios;
         NodoProducto* actual = cabeza;
-        while (actual) { precios.push_back(actual->producto.precio); actual = actual->siguiente; }
+        while (actual) { 
+            precios.push_back(actual->producto.precio); 
+            actual = actual->siguiente; 
+}
         ordenamientos.quickSort(precios, 0, precios.size() - 1);
         cout << "\n Precios ordenados (Quick Sort): ";
         for (double p : precios) cout << "S/." << p << " ";
