@@ -25,7 +25,7 @@ public:
   */
   void CargarDatosEjemplo(GestorInventario &inventario, Marketplace &market) {
     generarCategorias(market);
-    generarProductos(inventario, market);
+    generarProductos(inventario);
   }
 
   /*
@@ -37,9 +37,7 @@ public:
     for (int i = 1; i <= cantidad; i++) {
       string nombre = "Producto_" + to_string(i);
       int stock = rand() % 100 + 1;
-      string categoria = (i % 3 == 0)   ? "Electronica"
-                         : (i % 3 == 1) ? "Ropa"
-                                        : "Accesorios";
+      string categoria = (i % 3 == 0)   ? "Electronica" : (i % 3 == 1) ? "Ropa": "Accesorios";
       double precio = (rand() % 200 + 10) * 1.5;
       inventario.registrarProductoDirecto(
           Producto(nombre, stock, categoria, precio));
@@ -51,35 +49,23 @@ public:
    Electronica, Ropa y Accesorios.
   */
   void generarCategorias(Marketplace &market) {
-    market.agregarCategoria(
-        Categoria(1, "Electronica", "Dispositivos electronicos y accesorios"));
-    market.agregarCategoria(
-        Categoria(2, "Ropa", "Ropa y calzado para toda la familia"));
-    market.agregarCategoria(
-        Categoria(3, "Accesorios", "Mochilas, bolsos y accesorios varios"));
+    market.agregarCategoria(Categoria(1, "Electronica", "Dispositivos electronicos y accesorios"));
+    market.agregarCategoria(Categoria(2, "Ropa", "Ropa y calzado para toda la familia"));
+    market.agregarCategoria(Categoria(3, "Accesorios", "Mochilas, bolsos y accesorios varios"));
   }
 
   /*
    Agrega un conjunto de productos predefinidos al inventario.
    Incluye productos de las categorias Electronica, Ropa y Accesorios.
   */
-  void generarProductos(GestorInventario &inventario, Marketplace &market) {
-    (void)market; // parametro no usado en esta funcion
-    inventario.registrarProductoDirecto(
-        Producto("Laptop HP", 15, "Electronica", 2500.00));
-    inventario.registrarProductoDirecto(
-        Producto("Mouse Gamer", 40, "Electronica", 85.00));
-    inventario.registrarProductoDirecto(
-        Producto("Teclado USB", 30, "Electronica", 60.00));
-    inventario.registrarProductoDirecto(
-        Producto("Polo Casual", 50, "Ropa", 35.00));
-    inventario.registrarProductoDirecto(
-        Producto("Zapatillas", 25, "Ropa", 180.00));
-    inventario.registrarProductoDirecto(
-        Producto("Mochila", 20, "Accesorios", 75.00));
-    inventario.registrarProductoDirecto(
-        Producto("Auriculares", 18, "Electronica", 120.00));
-    inventario.registrarProductoDirecto(
-        Producto("Camisa Formal", 35, "Ropa", 45.00));
+  void generarProductos(GestorInventario &inventario) {
+    inventario.registrarProductoDirecto(Producto("Laptop HP", 15, "Electronica", 2500.00));
+    inventario.registrarProductoDirecto(Producto("Mouse Gamer", 40, "Electronica", 85.00));
+    inventario.registrarProductoDirecto(Producto("Teclado USB", 30, "Electronica", 60.00));
+    inventario.registrarProductoDirecto(Producto("Polo Casual", 50, "Ropa", 35.00));
+    inventario.registrarProductoDirecto(Producto("Zapatillas", 25, "Ropa", 180.00));
+    inventario.registrarProductoDirecto(Producto("Mochila", 20, "Accesorios", 75.00));
+    inventario.registrarProductoDirecto(Producto("Auriculares", 18, "Electronica", 120.00));
+    inventario.registrarProductoDirecto(Producto("Camisa Formal", 35, "Ropa", 45.00));
   }
 };

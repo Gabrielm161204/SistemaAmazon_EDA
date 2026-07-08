@@ -500,9 +500,9 @@ public:
       mostrarOpcion(" 8 ", "Eliminar producto del inventario");
       mostrarOpcion(" 9 ", "Ordenar por precio           (Insertion Sort)");
       mostrarOpcion("10 ", "Ordenar por precio           (Quick Sort)");
-      cout << "\033[1;36m  |\033[0m" << endl;
+      cout << "\033[1;36m |\033[0m" << endl;
       mostrarOpcion("11 ", "Cambiar contrasena de administrador");
-      cout << "\033[1;36m  |\033[0m" << endl;
+      cout << "\033[1;36m |\033[0m" << endl;
       mostrarOpcion(" 0 ", "Volver al Menu Principal", true);
       mostrarSeparador('=');
       cout << "\033[1;33m\n  >> Ingrese su opcion: \033[0m";

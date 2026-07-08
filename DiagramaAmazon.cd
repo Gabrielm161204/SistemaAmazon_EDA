@@ -1,158 +1,200 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Sistema" Collapsed="true">
-    <Position X="15.75" Y="3.5" Width="1.5" />
+    <Position X="18.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ACEQAAEAEAAAAFABAQABggAAAAAgAAAgAAAABACAAAA=</HashCode>
+      <HashCode>ACEYCgEAEAAAAFABAQABggAAAIAABCAgAAAgBACCAEg=</HashCode>
       <FileName>Sistema.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Carrito" Collapsed="true">
-    <Position X="8.75" Y="0.5" Width="1.5" />
+    <Position X="11.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EAAAAQAAAAQAAAAAAAgABAAAAAAAAAIAIEIQAQAAiAQ=</HashCode>
       <FileName>Carrito.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Categoria" Collapsed="true">
-    <Position X="10.5" Y="0.5" Width="1.5" />
+    <Position X="13.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAACkAAEAgAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>Categoria.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Cliente" Collapsed="true">
-    <Position X="6.25" Y="1.75" Width="1.5" />
+    <Position X="9.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAABAAAACAAAAAAACABAAAIBAAAEBAAAAAAAAAAAA=</HashCode>
       <FileName>Cliente.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NodoCola&lt;T&gt;" Collapsed="true">
-    <Position X="8.75" Y="2.5" Width="1.5" />
+    <Position X="11.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
       <FileName>Cola.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Cola&lt;T&gt;" Collapsed="true">
-    <Position X="12.25" Y="0.5" Width="1.5" />
+    <Position X="15.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAAAAAJAAAAAEAAAAAgwAAACAAAIAAAAARAAAAAA=</HashCode>
       <FileName>Cola.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GeneradorData" Collapsed="true">
-    <Position X="14" Y="0.5" Width="1.5" />
+    <Position X="17" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAgAQEAAAABAAAAABAAAABAAAAAAAAABAAABAA=</HashCode>
       <FileName>GeneradorData.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GestorInventario" Collapsed="true">
-    <Position X="15.75" Y="0.5" Width="1.5" />
+    <Position X="18.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ASAAAhAAAACgAAACAAAEgEBAAAQCAAEAAAiAAAAIAAo=</HashCode>
+      <HashCode>ASAAAhBAAAKgAAADAAAEgEBAAAQCAAEAAAiAAAAJAAo=</HashCode>
       <FileName>GestorInventario.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NodoHash&lt;T&gt;" Collapsed="true">
-    <Position X="10.5" Y="2.5" Width="1.5" />
+    <Position X="13.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAQAAAAAAA=</HashCode>
       <FileName>HashTable.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="HashTable&lt;T&gt;" Collapsed="true">
-    <Position X="8.75" Y="1.5" Width="1.5" />
+    <Position X="11.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAgQAAAAAAAAAAAgAAAAAEAAAAAAgAAAAAAEAQ=</HashCode>
       <FileName>HashTable.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NodoHistorial" Collapsed="true">
-    <Position X="12.25" Y="2.5" Width="1.5" />
+    <Position X="15.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>BAAAAAAAAQAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Historial.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Historial" Collapsed="true">
-    <Position X="10.5" Y="1.5" Width="1.5" />
+    <Position X="13.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAABECAAKgAAAAAAAAAYAAAAQAAgAAAAAAAA=</HashCode>
       <FileName>Historial.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ItemPedido" Collapsed="true">
-    <Position X="12.25" Y="1.5" Width="1.5" />
+    <Position X="15.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAABAAABQAAAEAAAAAABAAAAAABAAAIAAAAAAAAA=</HashCode>
       <FileName>ItemPedido.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Marketplace" Collapsed="true">
-    <Position X="14" Y="1.5" Width="1.5" />
+    <Position X="17" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ADACAAAAAAAAAACABAAAgAAYAAAAAAQAAACAAQAAAAA=</HashCode>
       <FileName>Marketplace.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MetodoPago" Collapsed="true">
-    <Position X="15.75" Y="1.5" Width="1.5" />
+    <Position X="18.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAADAAAAACIAgIEAAgAAAAAAAAAAAIBAAAAAAAAAgA=</HashCode>
       <FileName>MetodoPago.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NodoProducto" Collapsed="true">
-    <Position X="15.75" Y="2.5" Width="1.5" />
+    <Position X="18.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>BAAAAAAAAABAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
       <FileName>NodoProducto.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Ordenamiento" Collapsed="true">
-    <Position X="8.75" Y="3.5" Width="1.5" />
+    <Position X="11.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAACAAAAEACAAAAAAAAAAAAAAAQAACAAEAAAAAQAAA=</HashCode>
       <FileName>Ordenamiento.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Pedido" Collapsed="true">
-    <Position X="10.5" Y="3.5" Width="1.5" />
+    <Position X="13.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAACAAAAAAAAAEEAAAABFAAACABIAAAgEAQAAAAAgA=</HashCode>
       <FileName>Pedido.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Perfil" Collapsed="true">
-    <Position X="6.25" Y="0.5" Width="1.5" />
+    <Position X="9.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAQAAABAAAAAECAAQAAgAAAAAAAAgAAAAAAAAAAEAA=</HashCode>
       <FileName>Perfil.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NodoPila&lt;T&gt;" Collapsed="true">
-    <Position X="14" Y="2.5" Width="1.5" />
+    <Position X="17" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
       <FileName>Pila.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Pila&lt;T&gt;" Collapsed="true">
-    <Position X="12.25" Y="3.5" Width="1.5" />
+    <Position X="15.25" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAQAAABAAAAEIAABAIQAAAAAAAIAAAAIQAAAAAA=</HashCode>
       <FileName>Pila.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Producto" Collapsed="true">
-    <Position X="14" Y="3.5" Width="1.5" />
+    <Position X="17" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAACAAAQAAAAACAQAAAIAAAAAAAEIAAAAAAQAAAAAA=</HashCode>
       <FileName>Producto.h</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="NodoBST&lt;T&gt;" Collapsed="true">
+    <Position X="15.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAJAAAAAAAAAAAABAAAAAAQAAAAAAA=</HashCode>
+      <FileName>BST.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArbolBinarioBusqueda&lt;T&gt;" Collapsed="true">
+    <Position X="17" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABIAAAAAEAAAEAAAoAAAAAYAAAABAAAABAAACAA=</HashCode>
+      <FileName>BST.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GrafoEnvio" Collapsed="true">
+    <Position X="13.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAABAAAAAAAAAAAAAgAgACgAA=</HashCode>
+      <FileName>Grafo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManejadorArchivos" Collapsed="true">
+    <Position X="11.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAAAAAAAEAAAAoAAAAAAABAEgAAAAAAAQAAAAAA=</HashCode>
+      <FileName>ManejadorArchivos.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Arista" Collapsed="true">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAI=</HashCode>
+      <FileName>Grafo.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RutaInfo" Collapsed="true">
+    <Position X="8" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAQAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grafo.h</FileName>
+    </TypeIdentifier>
+  </Struct>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

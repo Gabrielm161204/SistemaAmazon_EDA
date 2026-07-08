@@ -8,7 +8,7 @@ using namespace std;
 Clase: NodoHash
 Representa un nodo de la tabla hash que almacena un par clave-valor que
 seran almacenados en la lista de cada bucket de la tabla hash.
-La clave es un string y el valor es de tipo T.
+La clave es un string y el valor es de tipo T. (pero prinpalmente para un puntero)
 */
 template <typename T> class NodoHash {
 public:
@@ -22,7 +22,7 @@ public:
  Permite insertar, buscar y eliminar pares clave-valor donde la clave es
  un string que puede ser el nombre del producto, o cualquier string que queramos
  y el valor es de tipo T para retornar cualquier tipo de dato. Usa la funcion
- hash polinomial de base 31.
+ hash polinomial de base 31 por ser comun.
 */
 template <typename T> class HashTable {
 private:
@@ -30,8 +30,8 @@ private:
   vector<list<pair<string, T>>> tabla; (alternativa usando la strutura pair,
   pero se tiene que incluir #include <utility>)
   */
-  vector<list<NodoHash<T>>> tabla; // Vector de listas de pares clave-valor
-  int m;                           // Tama�o de la tabla (numero de buckets)
+	vector<list<NodoHash<T>>> tabla; // Vector de listas de pares clave-valor en si el hash table
+  int m;                           // Tamanio de la tabla (numero de buckets)
 
   /*
    Funcion hash polinomial de base 31.
@@ -60,7 +60,8 @@ public:
   */
   void insertar(string clave, T valor) {
     int idx = hashFunction(clave);
-    auto &bucket = tabla[idx];
+	auto& bucket = tabla[idx]; //usamos auto para que detecte automaticamente el tipo de bucket como 
+    //list<NodoHash<T>> seria lo mismo que poner list<NodoHash<T>>& bucket = tabla[idx];
 
     for (auto &nodo : bucket) {
       if (nodo.clave == clave) {

@@ -62,11 +62,11 @@ public:
         }
     }
 
-    NodoProducto* getCabeza() {
+	NodoProducto* getCabeza() { // retornamos el puntero a la cabeza de la lista
         return cabeza;
     }
 
-    void reconstruirBST() {
+	void reconstruirBST() { // logica de reconstruccion del BST para que este siempre actualizado
         indiceBST.limpiar();
         NodoProducto* actual = cabeza;
         while (actual != nullptr) {
@@ -137,7 +137,7 @@ public:
      Muestra productos ordenados alfabéticamente usando inorden en el BST.
     */
     void mostrarProductosBST() {
-        auto lista = indiceBST.obtenerInorden();
+        auto lista = indiceBST.obtenerInorden(); //Izquierda-Raiz-Deerecha
         if (lista.empty()) {
             cout << "\n\033[1;31m [!] No hay productos en el indice BST.\033[0m" << endl;
             return;

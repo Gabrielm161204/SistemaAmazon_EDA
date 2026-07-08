@@ -27,10 +27,10 @@ public:
 };
 
 /*
- Clase: ArbolBinarioBusqueda
- Implementa un Árbol Binario de Búsqueda (BST) genérico que usa
- strings como claves. Permite insertar elementos, buscarlos por
- clave y obtener un recorrido inorden con los valores ordenados
+ Clase: ArbolBinarioBusqueda BST
+ Implementa un Árbol Binario de Búsqueda (BST) genérico que usa strings como claves. 
+ Permite insertar elementos, buscarlos por clave y obtener un recorrido 
+ inorden con los valores ordenados
  de menor a mayor según la clave.
 */
 template <typename T>
@@ -40,8 +40,8 @@ private:
 
     /*
      Libera recursivamente la memoria de todos los nodos de un subárbol.
-     Recorre en postorden (izquierdo, derecho, nodo) para eliminar hijos
-     antes que el padre.
+	 Recorre en postorden (izquierdo, derecho, nodo) para eliminar hijos antes que el padre evitando
+	 trata de acceder a memoria ya liberada.
     */
     void destruir(NodoBST<T>* nodo) {
         if (nodo != nullptr) {

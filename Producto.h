@@ -21,7 +21,7 @@ public:
 
     /*
      Constructor por defecto.
-     Inicializa el producto con valores vacios/cero y estado disponible.
+     Inicializa el producto con valores vacios y estado disponible.
     */
     Producto() : nombre(""), stock(0), categoria(""), precio(0.0), estado(true) {}
 
