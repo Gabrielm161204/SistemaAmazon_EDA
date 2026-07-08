@@ -189,14 +189,30 @@ public:
     /*
      Busca un producto por nombre usando la tabla hash.
     */
-    Producto* buscarPorNombre() {
-        string nombre;
-        cout << "\n Nombre a buscar (Recursivo): "; cin.ignore(); getline(cin, nombre);
+    Producto* buscarPorNombre(string& nombre) {
         Producto* ptr = nullptr;
         if (indicePorNombre.encontrado(nombre, ptr)) {
             return ptr;
         }
         return nullptr;
+    }
+
+    /*
+     Busca un producto por nombre usando la tabla hash y muestra
+     toda su informacion por consola. Es la version interactiva
+     de buscarPorNombre(), pensada para el menu de administracion.
+    */
+    void buscarProductoHash() {
+        string nombre;
+        cout << "\n Ingrese el nombre a buscar (Hash): "; cin.ignore(); getline(cin, nombre);
+        Producto* p = buscarPorNombre(nombre);
+        if (p != nullptr) {
+            cout << "\n\033[1;32m [OK] Producto encontrado en la HashTable:\033[0m" << endl;
+            p->mostrarInfo();
+        }
+        else {
+            cout << "\n\033[1;31m [!] Producto '" << nombre << "' no encontrado en la HashTable.\033[0m" << endl;
+        }
     }
 
     /*
