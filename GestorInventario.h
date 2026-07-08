@@ -284,12 +284,14 @@ public:
         while (actual) { precios.push_back(actual->producto.precio); actual = actual->siguiente; }
         ordenamientos.insertionSort(precios);
         cout << "\n Precios ordenados (Insertion Sort): ";
-        for (double p : precios) cout << "S/." << p << " ";
+        for (double p : precios) {
+            cout << "S/." << p << " ";
+        }
         cout << endl;
     }
 
     /*
-     Ordena usando Quick Sort.
+     Ordena usando Quick Sort para el dato del precio.
     */
     void ordenarQuickSort() {
         if (cabeza == nullptr) return;
@@ -301,7 +303,9 @@ public:
 }
         ordenamientos.quickSort(precios, 0, precios.size() - 1);
         cout << "\n Precios ordenados (Quick Sort): ";
-        for (double p : precios) cout << "S/." << p << " ";
+        for (double p : precios) {
+            cout << "S/." << p << " ";
+        }
         cout << endl;
     }
 

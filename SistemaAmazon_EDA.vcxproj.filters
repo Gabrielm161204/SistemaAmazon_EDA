@@ -87,4 +87,9 @@
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="acciones.txt" />
+    <Text Include="productos.txt" />
+    <Text Include="admin_credentials.txt" />
+  </ItemGroup>
 </Project>
