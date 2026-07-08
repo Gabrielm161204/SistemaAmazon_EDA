@@ -530,7 +530,7 @@ public:
         pausar();
         break;
       case 5:
-        inventario.buscarProducto();
+        inventario.buscarProductoHash();
         pausar();
         break;
       case 6:
@@ -674,7 +674,7 @@ public:
         cout << "  Cantidad a comprar : ";
         cin >> cant;
 
-        // Buscar por BST para demostrar su uso
+        // Buscar por HashTable para demostrar su uso
         Producto *p = inventario.buscarPorNombre(nombre);
         if (p) {
           clienteActual.agregarCarrito(p, cant);
